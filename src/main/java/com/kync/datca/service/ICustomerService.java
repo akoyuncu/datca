@@ -9,7 +9,7 @@ public interface ICustomerService {
 
     Customer createCustomer(CustomerDto customerDto);
 
-    Customer updateCustomer(CustomerDto customerDto);
+    void updateCustomer(CustomerDto customerDto);
 
     void deleteCustomer(Long identityNo);
 
